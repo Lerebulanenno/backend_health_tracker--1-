@@ -1,5 +1,5 @@
 # Nama Anggota
-1. 1. Enno Elisabeth Eklesia Lerebulan (42230004)
+1. Enno Elisabeth Eklesia Lerebulan (42230004)
 2. Ni Kadek Liana Pratiwi (42230010)
 3. Ni Putu Likayuni Viona (42230025)
 4. I Gusti Nathan Agung Tanaka (42230038)
