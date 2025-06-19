@@ -6,5 +6,14 @@ export const historyType = gql`
     id_user: Int
     id_progress: Int
     progress: Progress
+    user: User
+  }
+
+  type Query {
+    getHistoryByUser(id_user: Int!): [History]
+  }
+
+  type Mutation {
+    deleteHistoryByUser(id_user: Int!): Boolean
   }
 `;

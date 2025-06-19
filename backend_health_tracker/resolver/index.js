@@ -1,6 +1,13 @@
-import { mergeResolvers } from '@graphql-tools/merge';
-import { userResolver } from './userResolver.js';
-import { trainnerResolver } from './trainnerResolver.js';
-import { progressResolver } from './progressResolver.js';
+import { mergeResolvers } from "@graphql-tools/merge";
+import { userResolver } from "./userResolver.js";
 
-export const resolvers = mergeResolvers([userResolver, trainnerResolver, progressResolver]);
+import { progressResolver } from "./progressResolver.js";
+import { historyResolver } from "./historyResolver.js";
+import { reminderResolver } from "./reminderResolver.js";
+
+export const resolvers = mergeResolvers([
+  userResolver,
+  progressResolver,
+  historyResolver,
+  reminderResolver,
+]);

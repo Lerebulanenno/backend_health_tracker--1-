@@ -1,18 +1,18 @@
-import mysql from 'mysql2';
+import mysql from "mysql2";
 
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'health_tracker',
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "health_tracker",
 });
 
 //mengetes koneksi ke database
 db.connect((err) => {
   if (err) {
-    console.error('Koneksi ke database gagal:', err);
+    console.error("Koneksi ke database gagal:", err);
   } else {
-    console.log('Terhubung ke databse');
+    console.log("Terhubung ke database");
   }
 });
 
